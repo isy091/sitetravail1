@@ -1,12 +1,12 @@
 html, body {
     margin: 0;
     padding: 0px 0px 0px 0px;
-    font-family: 'Roboto', sans-serif;
-    color: #666666;
+    font-family: 'Times New Roman', sans-serif;
+    color: black;
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: lightgrey;
 }
 
 .top-bar {
@@ -17,16 +17,16 @@ body {
 }
 
 .logo {
-   font-size: 30px;
+   font-size: 35px;
    position: absolute;
    padding: 0px 0px 0px 20px;
    z-index: 3;
-   color: #131359;
+   color: black;
    font-weight: bold;
 }
 
 .top-menu {
-   background-color: #131359;
+   background-color: dimgrey;
    position: absolute;
    top: 85px;
    z-index: 2;
@@ -45,17 +45,17 @@ body {
 }
 
 .top-menu li a:link, .top-menu li a:visited {
-    color: white;
+    color: black;
     text-decoration: none;
     padding: 20px 20px 20.5px 20px;
 }
 
 .top-menu li a:hover {
-    background-color: red;
+    background-color: yellow;
 }
 
 .current-page-link {
-    background-color: #db0e0e;
+    background-color: yellow;
 }
 
 .page-content {
@@ -64,7 +64,7 @@ body {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    background-color: white;
+    background-color: lightgrey;
     z-index: 1;
 }
 
@@ -89,7 +89,7 @@ body {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    background-color:#3f3c3c;
+    background-color: dimgrey;
 }
 
 .footer-content {
